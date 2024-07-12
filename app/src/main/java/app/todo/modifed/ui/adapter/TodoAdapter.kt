@@ -1,6 +1,7 @@
 package app.todo.modifed.ui.adapter
 
 import android.annotation.SuppressLint
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
@@ -22,6 +23,7 @@ class TodoAdapter(private val todoInterface: TodoInterface): RecyclerView.Adapte
             val diffUtil = ListDiffUtil(field, newValue)
             val diffUtilResult = DiffUtil.calculateDiff(diffUtil)
             field = newValue
+            Log.d(":TEST", "TEST1")
 
             diffUtilResult.dispatchUpdatesTo(this@TodoAdapter)
         }
