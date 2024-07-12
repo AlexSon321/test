@@ -23,8 +23,6 @@ class TodoAdapter(private val todoInterface: TodoInterface): RecyclerView.Adapte
             val diffUtil = ListDiffUtil(field, newValue)
             val diffUtilResult = DiffUtil.calculateDiff(diffUtil)
             field = newValue
-            Log.d(":TEST", "TEST1")
-
             diffUtilResult.dispatchUpdatesTo(this@TodoAdapter)
         }
 
