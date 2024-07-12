@@ -81,7 +81,8 @@ class TodoListFragment : Fragment(), TodoInterface {
                 .setNegativeButton(requireActivity().getString(R.string.cancel_task)
                 ) { dialog, p1 ->
                     dialog.dismiss()
-                    Log.d("TEST", "TESTT")
+                    Log.d("TEST", "TESTT_2")
+
                 }
                 .create().show()
 
