@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Todo Modifed</string>
+    <string name="priorityTitle">Priority</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="def">Default</string>
+    <string name="add_task">Add</string>
+    <string name="finish_task">Finish</string>
+    <string name="cancel_task">Cancel</string>
+    <string name="dialogTitle">Add Task</string>
+    <string name="finishTitle">Finish task?</string>
+    <string name="todoList">Task List</string>
+    <string name="doneList">Done List</string>
+</resources>
